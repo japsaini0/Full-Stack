@@ -1,0 +1,30 @@
+html
+{
+    background-color: grey;
+}
+
+h1
+{
+    color : blue;
+    text-decoration : underline;    
+    text-align : center;
+}
+
+h2
+{
+    text-decoration : underline;
+    color :beige;
+}
+
+pre
+{
+    font-size: 18;
+    text-align : center;
+}
+
+nav
+{
+    text-align : center
+}
+
+
