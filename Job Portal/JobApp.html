@@ -13,7 +13,12 @@
 
     <hr>
 
-    <img src = "/Full Stack git\Job Portal\images.jpeg" height = "250" width = "500">
+    <div class = "pic">
+    <img src = "/Full Stack git\Job Portal\images.jpeg" height = "250" width = "500" alt = "Hiring">
+    <hr>
+    <img src = "/Full Stack git\Job Portal\dreamjob.png" height = "250" width = "500" alt="Dream Job">
+    
+    </div>
     <hr>
 
     <nav>
@@ -29,7 +34,7 @@
     <hr>
 </header>
 
-<section>
+<section class = "cat">
     <h2>Job Categories</h2>
     <ul>
         <li>Animation</li>
@@ -46,6 +51,9 @@
 <section>
     <h2>Available Jobs</h2>
 
+    <div class = "jobss">
+    <p>
+
     <article>
         <h3>1. Full Stack Developer</h3>
         <p><strong>Company:</strong> Samsung Research & Development</p>
@@ -53,8 +61,8 @@
         <p><strong>Description:</strong> Experienced in HTML, CSS, and JavaScript.</p>
         <a href="#">Apply Now</a>
     </article>
+    <hr>
 
-    <br>
 
     <article>
         <h3>2. Animator</h3>
@@ -64,7 +72,8 @@
         <a href="#">Apply Now</a>
     </article>
 
-    <br>
+    
+    <hr>    
 
     <article>
         <h3>3. Game Designer</h3>
@@ -73,15 +82,18 @@
         <p><strong>Description:</strong> Design user-friendly interfaces and experiences.</p>
         <a href="#">Apply Now</a>
     </article>
+    </div>
+</p>
+
 </section>
 
 <br>
 <hr>
 
-<section>
+<section >
     <h2>Top Searched Roles</h2>
 
-    <table border="2">
+    <table border="2" class="tb">
         <thead>
             <tr>
                 <th>Company</th>
@@ -110,23 +122,25 @@
         </tbody>
     </table>
 </section>
+<br>
 
 <hr>
+
 
 <section>
     <h2>Apply for a Job</h2>
 
-    <form>
+    <form class = "fr">
         <label for="name">Name:</label><br>
-        <input type="text" id="name" required placeholder="Enter your Name here">
+        <input type="text" id="name" class = "in" required placeholder="Enter your Name here">
         <br><br>
 
         <label for="email">Email:</label><br>
-        <input type="email" id="email" required placeholder="Enter your Email here ">
+        <input type="email" id="email" class = "in" required placeholder="Enter your Email here ">
         <br><br>
 
         <label for="job">Select Job:</label><br>
-        <select id="job">
+        <select id="job" class = "in">
             <option value="">Choose a job</option>
             <option>1. Full Stack Developer</option>
             <option>2. Animator</option>
@@ -135,10 +149,10 @@
         <br><br>
 
         <label for="message">Something about you that we must know</label><br>
-        <textarea id="message" rows="4" cols="40"></textarea>
+        <textarea id="message" rows="4" cols="40" class = "in"></textarea>
         <br><br>
 
-        <button type="submit">Submit</button>
+        <button type="submit" class = "sub">Submit</button>
     </form>
 
 </section>

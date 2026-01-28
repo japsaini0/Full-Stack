@@ -1,6 +1,8 @@
 html
 {
-    background-color: grey;
+    background-color:aqua;
+    padding : 0;
+    margin : 0;
 }
 
 h1
@@ -13,7 +15,7 @@ h1
 h2
 {
     text-decoration : underline;
-    color :beige;
+    color :tomato;
 }
 
 pre
@@ -27,4 +29,56 @@ nav
     text-align : center
 }
 
+a
+{
+    text-decoration: none;
+}
 
+div
+{
+    display : flex;
+}
+
+.pic
+{
+    margin: 3%;
+    justify-content: space-evenly;
+}
+
+.jobss
+{
+    justify-content: space-between;
+}
+
+
+.in
+{
+    background-color :grey;
+}
+
+::placeholder
+{
+    color: black;
+}
+
+.sub
+{
+    color: blue;
+    background-color: blanchedalmond;
+}
+
+
+.cat
+{
+    font-size: 1.1rem;
+}
+
+.tb
+{
+    font-size: 1.2rem;
+}
+
+.fr
+{
+    font-size: 1.05rem;
+}
