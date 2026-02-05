@@ -7,20 +7,22 @@
 <body>
 
 <header>
+    <div id = "top">
+    <br>
+    <br><br>
 
     <h1>Job Finder</h1>
+    <br>
     <pre>Select Job roles that fit your skillset.</pre>
 
+    <br><br>
+    <br>
     <hr>
 
-    <div class = "pic">
-    <img src = "/Full Stack git\Job Portal\images.jpeg" height = "250" width = "500" alt = "Hiring">
-    <hr>
-    <img src = "/Full Stack git\Job Portal\dreamjob.png" height = "250" width = "500" alt="Dream Job">
+ </div>
     
-    </div>
-    <hr>
-
+    <div id = "nav">
+        
     <nav>
         <big>       
             <a href="#">Home</a> |
@@ -30,11 +32,15 @@
             
         </big>
     </nav>
+    <br>
+    </div>
 
+   
     <hr>
 </header>
 
 <section class = "cat">
+    <div>
     <h2>Job Categories</h2>
     <ul>
         <li>Animation</li>
@@ -43,15 +49,33 @@
         <li>Marketing</li>
         <li>Research</li>
     </ul>
+    <div>
+
+</section>
+
+<hr>
+
+<section>
+    <h2>Add New Job</h2>
+
+    <form id="addJobForm" class="fr">
+        <input type="text" id="jobTitle" class="in" placeholder="Job Title">
+        <input type="text" id="jobCompany" class="in" placeholder="Company">
+        <input type="text" id="jobLocation" class="in" placeholder="Location">
+        <textarea id="jobDesc" class="in" placeholder="Job Description"></textarea><br>
+        <button type="submit" class="sub">Add Job</button>
+    </form>
 </section>
 
 <hr>
 
 
+
 <section>
     <h2>Available Jobs</h2>
+    <h3>Available Jobs = <span id = "jobcount">3</span></h3>
 
-    <div class = "jobss">
+    <div class = "jobss" id = "joblist">
     <p>
 
     <article>
@@ -59,14 +83,14 @@
         <p><strong>Company:</strong> Samsung Research & Development</p>
         <p><strong>Location:</strong> Chandigarh</p>
         <p><strong>Description:</strong> Experienced in HTML, CSS, and JavaScript.</p>
-        <a href="#">Apply Now</a>
+        <a href="#" class = "applyBtn">Apply Now</a>
     </article>
     <hr>
 
 
     <article>
         <h3>2. Animator</h3>
-        <p><strong>Company:</strong> Ufotable, Inc. </p>
+        <p><strong>Company:</strong> MAPPA Co., Ltd. </p>
         <p><strong>Location:</strong> Tokyo</p>
         <p><strong>Description:</strong> Drawing and Animations</p>
         <a href="#">Apply Now</a>
@@ -91,6 +115,7 @@
 <hr>
 
 <section >
+    <div>
     <h2>Top Searched Roles</h2>
 
     <table border="2" class="tb">
@@ -121,6 +146,7 @@
             </tr>
         </tbody>
     </table>
+    </div>
 </section>
 <br>
 
@@ -128,16 +154,17 @@
 
 
 <section>
+    <div>
     <h2>Apply for a Job</h2>
+
 
     <form class = "fr">
         <label for="name">Name:</label><br>
         <input type="text" id="name" class = "in" required placeholder="Enter your Name here">
-        <br><br>
 
         <label for="email">Email:</label><br>
         <input type="email" id="email" class = "in" required placeholder="Enter your Email here ">
-        <br><br>
+
 
         <label for="job">Select Job:</label><br>
         <select id="job" class = "in">
@@ -146,19 +173,18 @@
             <option>2. Animator</option>
             <option>3. Game Designer</option>
         </select>
-        <br><br>
+
 
         <label for="message">Something about you that we must know</label><br>
         <textarea id="message" rows="4" cols="40" class = "in"></textarea>
-        <br><br>
+        <br>
 
         <button type="submit" class = "sub">Submit</button>
     </form>
+    </div>
 
 </section>
 <hr>
-
-
 
 <footer>
     Thankyou for visiting.
@@ -173,5 +199,6 @@
 
 <hr>
 
+<script src = "/Full Stack git\Job Portal\script.js"></script>
 </body>
 </html>
