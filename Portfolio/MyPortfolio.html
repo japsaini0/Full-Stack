@@ -1,210 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel = "stylesheet" href = "/Full Stack git\Portfolio\style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
 
-    <style>
-        
-    </style>
+<link rel="stylesheet" href="style.css">
 
-    <h1 >
-        Welcome to my Portfolio
-    </h1>
-    <hr>
+<h1>
+Welcome to my Portfolio
+</h1>
+
+<hr>
 
 </head>
+
 <body>
-    
-    <header>
-        <h2>
-            About Me
-        </h2>
-   
-       <div class = onee> 
-        <div>
-        <pre><img src = "/Full Stack git\Portfolio\Me0.jpg" alt = "Japjit Singh" height = "150">    </div>
-    <div>
-     <big style = "text-align : justify">
-I am a 2nd-year B.Tech Computer Science and Engineering student at Chandigarh University, 
-            passionate about exploring the world of technology and problem-solving. My interests span 
-            web development, programming in C++, Java, and Python, and building efficient solutions 
-            through algorithms and data structures. I enjoy learning new concepts, experimenting with 
-            projects, and continuously improving my skills to prepare for a career in software 
-            development and emerging fields like AI and Web3.
-        </big>
-    </pre>
-        </div>
-        </div>
 
-        <br><br>
+<header>
 
-    
-    </header>
+<h2>About Me</h2>
 
-        <hr>
+<div class="onee">
+
+<div>
+<img src="Me0.jpg" alt="Japjit Singh" height="150">
+</div>
+
+<div>
+
+<p>
+I am a 2nd-year B.Tech Computer Science and Engineering student at Chandigarh University,
+passionate about exploring the world of technology and problem-solving. My interests span
+web development, programming in C++, Java, and Python, and building efficient solutions
+through algorithms and data structures. I enjoy learning new concepts, experimenting with
+projects, and continuously improving my skills to prepare for a career in software
+development and emerging fields like AI and Web3.
+</p>
+
+</div>
+
+</div>
+
+</header>
+
+<hr>
 
 <section>
 
-        <h2>Use links below to connect to me</h2>
+<h2>Use links below to connect to me</h2>
 
-        <nav>
-            <big>
-                <a href = "https://leetcode.com/u/japsaini0/"> LeetCode </a> ||
-                <a href = "https://github.com/japsaini0" > Github </a> 
-            </big>
-        </nav>
-    </section>
+<nav>
 
-    <hr>
-    
-    <section>
+<a href="https://leetcode.com/u/japsaini0/">LeetCode</a> |
+<a href="https://github.com/japsaini0">Github</a>
 
-        <h2>Education</h2>
+</nav>
 
-        <table border = "9">
+</section>
 
-            <thead>
-                <tr>
-                    <th>
-                        Degree
-                    </th>
+<hr>
 
-                    <th>
-                        Specialisation
-                    </th>
-                    
-                    <th>
-                        Passing Year
-                    </th>
+<section>
 
-                    <th>
-                        Institute
-                    </th>
+<h2>Projects</h2>
 
-                    <th>
-                        Grades
-                    </th>
-                </tr>
-            </thead>
+<h3>LDR Security System</h3>
 
-            <tbody>
-                <tr>
-                    <td>BE</td>
-                    <td>CSE</td>
-                    <td>2028</td>
-                    <td>Chandigarh University</td>
-                    <td>8.27</td>
-                </tr>
+<p>
+Built a security system using a Light Dependent Resistor (LDR) that detects changes
+in light intensity. When the light beam is interrupted, the system triggers an alarm
+indicating a possible intrusion.
+</p>
 
-                <tr>
-                    <td>12th</td>
-                    <td>Non - Medical</td>
-                    <td>2024</td>
-                    <td>G.S.S.S Chhina Bet</td>
-                    <td>90.4%</td>
-                </tr>
+<ul>
 
-                <tr>
-                    <td>10th</td>
-                    <td>General</td>
-                    <td>2022</td>
-                    <td>Akal Academy Tibber</td>
-                    <td>89%</td>
-                </tr>
-            </tbody>
-        </table>
+<li>Components Used: LDR, Buzzer, Arduino</li>
 
-    </section>
-    
-    <hr>
+<li>Purpose: Intruder detection</li>
 
-    <section id = "one">
+<li>Working: Alarm activates when light beam is blocked</li>
 
-        <h2>Technical Sills</h2>
+</ul>
 
-        <ul>
-            <li>
-                C/ C++
-            </li>
+</section>
 
-            <li>
-                Python                
-            </li>
+<hr>
 
-            <li>
-                SQL
-            </li>
+<section>
 
-            <li>
-                DSA
-            </li>
-            
-            <li>
-                Problem Solving
-            </li>
+<h2>Education</h2>
 
-            <li>
-                HTML
-            </li>
+<table border="1">
 
-            <li>
-                JAVA
-            </li>
-            
-        </ul>
+<thead>
 
-    </section>
+<tr>
 
-    <hr>
+<th>Degree</th>
 
-    <section>
-        <h2>Contact Me</h2>
-            <form action= "/idk">
-                <label for = "name" >Enter your name</label>
-                <input type = "text" id = "name" name = "username" placeholder = "here" required> 
-                <!-- name = "username" tells backend that this is going to be username ig -->
+<th>Specialisation</th>
 
-                <br>
+<th>Passing Year</th>
 
-                <label for = "email" >Enter your E-mail</label>
-                <input type = "email" id = "email" name = "email" placeholder = "here" required>
+<th>Institute</th>
 
-                <br>
+<th>Grades</th>
 
-                <label for = "why">Reason for cantacting </label>
-                <select id = why>
-                    <option value = "Job">Job Oppurtunity</option>
-                    <option value = "Tp">Time Pass</option>
-                    <option value = "info">Need more information</option>
-                </select>
+</tr>
 
-                <br>
+</thead>
 
-                <label for "feedback">Feedback</label>
-                <input type = textarea placeholder = "Enter your feedback">
+<tbody>
 
-                <br>
+<tr>
+<td>BE</td>
+<td>CSE</td>
+<td>2028</td>
+<td>Chandigarh University</td>
+<td>8.27</td>
+</tr>
 
+<tr>
+<td>12th</td>
+<td>Non-Medical</td>
+<td>2024</td>
+<td>G.S.S.S Chhina Bet</td>
+<td>90.4%</td>
+</tr>
 
-                <button type = "submit">Submit</button>
+<tr>
+<td>10th</td>
+<td>General</td>
+<td>2022</td>
+<td>Akal Academy Tibber</td>
+<td>89%</td>
+</tr>
 
-                <br>
+</tbody>
 
-            </form>
-    </section>
+</table>
 
-    <hr>
+</section>
 
-    <footer>
-        <pre>
-&copy; ALL RIGHT RESERVED.
+<hr>
+
+<section>
+
+<h2>Technical Skills</h2>
+
+<ul>
+
+<li>C / C++</li>
+<li>Python</li>
+<li>SQL</li>
+<li>DSA</li>
+<li>Problem Solving</li>
+<li>HTML</li>
+<li>Java</li>
+
+</ul>
+
+</section>
+
+<hr>
+
+<section>
+
+<h2>Contact Me</h2>
+
+<form action="/idk">
+
+<label for="name">Enter your name</label>
+<input type="text" id="name" name="username" placeholder="here" required>
+
+<br>
+
+<label for="email">Enter your E-mail</label>
+<input type="email" id="email" name="email" placeholder="here" required>
+
+<br>
+
+<label for="why">Reason for contacting</label>
+
+<select id="why">
+
+<option value="Job">Job Opportunity</option>
+
+<option value="Tp">Time Pass</option>
+
+<option value="info">Need more information</option>
+
+</select>
+
+<br>
+
+<label for="feedback">Feedback</label>
+
+<textarea placeholder="Enter your feedback"></textarea>
+
+<br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</section>
+
+<hr>
+
+<footer>
+
+<p>
+© ALL RIGHTS RESERVED <br>
 JAPJIT SINGH
-        </pre>
-    </footer>
-    
+</p>
+
+</footer>
 
 </body>
 </html>
