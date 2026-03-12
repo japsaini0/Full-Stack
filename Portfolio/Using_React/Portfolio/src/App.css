@@ -1,0 +1,53 @@
+h1
+{
+    color: #38bdf8;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2
+{
+    color: #f97316;
+}
+
+html
+{
+    background-color: #0f172a;
+    color: #e5e7eb;
+}
+
+table
+{
+    background-color: #1e293b;
+    color: #e5e7eb;
+    border: 1px solid #38bdf8;
+}
+
+th, td
+{
+    border: 1px solid #38bdf8;
+    padding: 8px;
+}
+
+.onee
+{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+a
+{
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #93c5fd;
+}
+
+hr
+{
+    border: 1px solid #334155;
+}
