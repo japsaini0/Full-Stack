@@ -1,0 +1,33 @@
+body
+{
+    background-color: #364652;
+}
+
+#heading
+{
+    color: #FF7700;
+    text-align: center;
+}
+
+#sec1, #sec2
+{
+    background-color: #BFB1C1;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+.in
+{
+    background-color: #5B5B5B;
+}
+
+.btn
+{
+    background-color: #C9C19F;
+}
+
+#taskList button
+{
+    background-color: #C7DBE6;
+}

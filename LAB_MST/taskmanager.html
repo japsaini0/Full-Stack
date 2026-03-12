@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+
+    <link rel = "stylesheet" href = "/Github\Full Stack git\LAB_MST\style.css">
+</head>
+<body>
+    <header>
+        <h1 id = "heading">
+            Student Task Manager
+        </h1>  
+    </header>
+
+    <section id = "sec1">
+        <div id = "box">
+            <h3>Enter your task</h3>
+            <input id = "task" class = "in" type = "text" placeholder=" Enter your task">
+
+            <h3>Select Priority</h3>
+            <select name = "Priority" id = "pr" class = "in"selected = "High">
+                <option value = "High">High</option>
+                <option value = "Medium">Medium</option>
+                <option value = "Low">Low</option>                
+            </select>
+            
+            <button id = "submit" class = "btn">Add Task</button>
+        </div>
+    </section>
+
+
+    <section id = "sec2">
+        <h2>Task List</h2>
+
+       <div id = "filters">
+        <button id = "all" class = "btn">Show All</button>
+        <button id = "completed" class = "btn">completed</button>
+        <button id = "pending" class = "btn">Pending</button>
+       </div>
+
+       <ul id = "taskList"></ul>
+    </section>
+
+    <script src = "/Github\Full Stack git\LAB_MST\script.js"></script>
+
+</body>
+</html>
